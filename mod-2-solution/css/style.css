@@ -28,16 +28,19 @@ p {
 #charmander-title {
     color: yellow;
     background-color: red;
+    width: 132px;
 }
 
 #squirtle-title {
     color: blue;
     background-color: lightblue;
+    width: 132px;
 }
 
 #bulbasaur-title {
     color: green;
     background-color: aquamarine;
+    width: 132px;
 }
 
 h2 {
@@ -55,6 +58,7 @@ div {
 .section-title {
     float: inline-end;
     text-align: center;
+    overflow: ;
     font-weight: 500;
     font-size: 1.25em;
     text-transform: capitalize;
