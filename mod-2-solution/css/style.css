@@ -54,9 +54,7 @@ div {
 
 .section-title {
     float: inline-end;
-    left: 67%;
     text-align: center;
-    width: 40%;
     font-weight: 500;
     font-size: 1.25em;
     text-transform: capitalize;
