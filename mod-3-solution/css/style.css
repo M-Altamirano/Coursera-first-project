@@ -1,0 +1,269 @@
+/* BASE STYLES*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0px;
+    border: 0;
+    padding-bottom: 0;
+}
+ 
+#header-nav .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 5vh;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+#header-nav .navbar-toggler {
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951c49;
+    text-decoration: none;
+}
+
+#nav-list .nav-item:hover {
+    background-color: #e7e7e7;
+}
+
+#nav-list .nav-item.active {
+    background-color: #e7e7e7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+#nav-list .nav-item {
+    margin: 5px;
+    text-align: center;
+}
+
+#nav-list .nav-item br {
+    font-size: 16px;
+}
+
+#collapsible-nav {
+    align-content: end;
+    background-color: #d4a12c;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+button.navbar-toggler {
+    clear: both;
+    margin-top: -30px;
+    border: 1px solid #61122f;
+    color: #61122f;
+}
+
+button.navbar-toggler .navbar-toggler-icon {
+    /* border: 1px solid #61122f; */
+    color: #61122f;
+    accent-color: #61122f;
+}
+
+/**************************** END HEADER ****************************/
+
+/**************************** FOOTER ****************************/
+
+.panel-footer {
+    background-color: #222;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #address {
+    line-height: 2;
+}
+
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#testimonials {
+    font-style: italic;
+}
+
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+/**************************** END FOOTER ****************************/
+
+#menu-title {
+    margin-top: 20px;
+}
+
+#main-content.container {
+    background-color: #f6b319;
+    margin: 20px auto;
+    max-width: 95%;
+}
+
+#chicken, #beef, #sushi {
+    margin: 20px 10px;
+    background-color: #d4a12c;
+}
+
+#chicken p, #beef p, #sushi p {
+    text-align: justify;
+}
+
+
+/* ********** Large devices only ********** */
+@media (min-width: 1200px) {
+    /* Header */
+
+}
+
+
+/* ****************** END OF HOME PAGE ****************** */
+
+/* ********** Medium devices only ********** */
+@media (min-width: 992px) and (max-width: 1199.9px) {
+    /* Header */
+}
+
+/* ****************** END OF MENU CATEGORIES PAGE ****************** */
+
+
+/* ********** Small devices only ********** */
+@media (min-width: 768px) and (max-width: 991.9px) {
+ 
+
+}
+
+/* ********** Extra small devices only ********** */
+@media (max-width: 767.9px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 { /* Restaurant name*/
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+
+    #call-btn {
+        margin-top: 20px;
+    }
+
+    #call-btn > a {
+        width: 90vw;
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px 0;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+    #call-btn .img-fluid {
+        width: 90vw;
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    /* End header */
+    /* Footer */
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+        align-content: center;
+    }
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .panel-footer section hr {
+        width: 50%;
+        margin: 0 auto;
+    }
+    /* End footer */
+
+
+    #menu-tile, #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+
+    .menu-item-photo {
+        margin: 0 auto 20px;
+    }
+    .menu-item-tile .menu-item-price {
+        font-size: 1.1em;
+        text-align: center;
+        margin-top: -15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-item-description {
+        text-align: center;
+    }
+    .menu-item-description .menu-item-details {
+        text-align: justify;
+        padding: 20px;
+    }
+}
